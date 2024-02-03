@@ -1,0 +1,115 @@
+:root{
+    --primary-text-color: rgb(148, 90, 23);
+    --secondary-text-color: rgb(235, 14, 14);
+    --font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.heading{
+    background-color: rgb(148, 90, 23);
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-size: 10px;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading h1{
+   text-align: center;
+   width: 600px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  
+  }
+
+
+.container{
+    display: flex;
+}
+
+
+.enquiry{
+   width: 30%;
+   background-color: rgba(236, 236, 236, 0.596);
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+h3{
+    margin: 7px;
+    color: var(--primary-text-color);
+    font-family: var(--font-family);
+}
+
+h4{
+    margin: 4px;
+    color: var(--primary-text-color);
+    font-family: var(--font-family);
+}
+
+.best{
+    color: var(--secondary-text-color);
+    font-family: var(--font-family);
+}
+
+.info{
+   
+    width: 70%;
+    /* text-align: left;
+    padding: 20px; */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.inp{
+    max-width: 70%;
+    
+}
+
+input{
+    padding: 8px;
+    max-width: 250px;
+    margin: 5px;
+    /* border-radius: 12px; */
+}
+
+button{
+    background-color: var(--primary-text-color);
+    color: white;
+    padding: 10px 40px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    border-radius: 12px;
+    border: none;
+
+}
+
+
+@media screen and (max-width: 479px){
+    form{
+        max-width: 400px;
+        margin: auto;
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+
+
+
