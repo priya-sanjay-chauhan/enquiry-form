@@ -82,13 +82,13 @@ h4{
 }
 
 .inp{
-    max-width: 70%;
-    
+    /* max-width: 70%; */
+   
 }
 
 input{
     padding: 8px;
-    max-width: 250px;
+    max-width: 80%;
     margin: 5px;
     /* border-radius: 12px; */
 }
@@ -101,6 +101,7 @@ button{
     font-size: 18px;
     border-radius: 12px;
     border: none;
+    margin: 10px;
 
 }
 
@@ -108,7 +109,7 @@ button{
 @media screen and (max-width: 479px){
     form{
         max-width: 340px;
-        margin: auto;
+        margin: 90px auto;
         border: 1px solid black;
         text-align: center;
     }
@@ -144,17 +145,19 @@ button{
     }
 
     h1{
-        font-size: 18px;
+        font-size: 24px;
+        font-weight: 700;
     }
 
     button{
         background-color: var(--primary-text-color);
         color: white;
-        padding: 8px 30px;
+        padding: 10px 30px;
         font-family: var(--font-family);
         font-size: 14px;
         border-radius: 12px;
         border: none;
+        margin: 24px;
     
     }
    
